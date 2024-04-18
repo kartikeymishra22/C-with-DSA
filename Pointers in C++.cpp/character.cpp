@@ -6,7 +6,11 @@ int main() {
     int arr[5] = {1,2,3,4,5};
     char ch[6] = "abcde";
 
-
+    for(int i = 0; i<5; i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
     cout << arr << endl;
     //attention here
     cout << ch << endl;
